@@ -1,0 +1,86 @@
+/* Arquivo style.css */
+
+/* Estilo geral para o corpo das páginas */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o cabeçalho e o menu de navegação */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilos para o container central das páginas */
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Estilo para o título das páginas */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os campos de entrada e botões */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para o link "Criar Login" */
+p a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilos para mensagens de erro */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilos para o formulário de cadastro */
+#confirm_password.error {
+    border-color: #ff0000;
+}
